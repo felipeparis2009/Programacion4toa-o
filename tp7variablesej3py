@@ -1,0 +1,15 @@
+#parte 1 sin pedir datos
+#ci = 100000
+#i = 0.02
+#n = 10
+
+# parte 2 pedir datos 
+ci = int(input('ingresar el valor inicial: '))
+i = float(input('indicar el valor de interes(en decimales): '))
+n = int(input('indicar cantidad de ciclos/años: '))
+cf = ci *(1 + i)**n
+print(f"el valor final, con un capital de (ci), un interes de (i) con la cantidad de años n es ")
+print(cf)
+Icompuesto = ci *(1 + i)**n
+print(f"el valor final, con un capital de {ci} un interes con la cantidad de años {ci} es")
+print ("compuesto")
