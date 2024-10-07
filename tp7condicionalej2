@@ -1,0 +1,10 @@
+def calcular_hipotenusa(cateto_a, cateto_b):
+    if cateto_a <= 0 or cateto_b <= 0:
+        print("Error")
+        return None
+    return (cateto_a**2 + cateto_b**2)
+if:
+    cateto_a = float(input("Introduce la longitud del primer cateto (mayor que 0): "))
+    cateto_b = float(input("Introduce la longitud del segundo cateto (mayor que 0): "))
+
+    hipotenusa = calcular_hipotenusa(cateto_a, cateto_b)
